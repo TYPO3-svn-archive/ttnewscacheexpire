@@ -1,9 +1,9 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext: "cacheexpire"
+# Extension Manager/Repository config file for ext: "ttnewscacheexpire"
 #
-# Auto generated 07-09-2008 22:16
+# Auto generated 13-09-2008 09:36
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Page Cache Expires cares of tt_news starttime/endtime',
 	'category' => 'be',
 	'shy' => 0,
-	'version' => '0.0.1',
+	'version' => '0.1.0',
 	'dependencies' => 'cms',
 	'conflicts' => '',
 	'priority' => '',
@@ -43,7 +43,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:8:{s:13:"changelog.txt";s:4:"0bd8";s:34:"class.user_tt_news_cacheexpire.php";s:4:"fd09";s:21:"class.ux_tslib_fe.php";s:4:"f4b7";s:21:"ext_conf_template.txt";s:4:"68b3";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"51ca";s:10:"readme.txt";s:4:"4f82";s:14:"doc/manual.sxw";s:4:"67b1";}',
+	'_md5_values_when_last_written' => 'a:6:{s:13:"changelog.txt";s:4:"eebb";s:22:"class.ux_tx_ttnews.php";s:4:"095c";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"c6de";s:10:"readme.txt";s:4:"b9af";s:14:"doc/manual.sxw";s:4:"277a";}',
 	'suggests' => array(
 	),
 );
